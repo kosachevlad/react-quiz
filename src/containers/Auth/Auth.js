@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import classes from './Auth.module.css'
 import Button from '../../components/UI/Button/Button'
 import Input from '../../components/UI/Input/Input'
-import axios from 'axios'
 import { connect } from 'react-redux'
 import { auth } from '../../store/actions/auth'
 

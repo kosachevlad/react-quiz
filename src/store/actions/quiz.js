@@ -121,7 +121,7 @@ export function quizAnswerClick(answerId) {
       
       dispatch(quizSetState( {[answerId]: 'success'}, results))
 
-      const timeout = window.setTimeout(() => {
+      window.setTimeout(() => {
         if (isQuizFinished(state)) {
           dispatch(finishQuiz())
         } else {
